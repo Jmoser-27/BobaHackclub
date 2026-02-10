@@ -1,0 +1,79 @@
+body{
+    background-color:#fcffe4;
+    color:#805121;
+    font-family:tahoma, sans-serif;
+    
+}
+#title{
+    text-align: top, right;
+    margin-left:20px;
+}
+
+#name{
+    margin-top:-10px;
+    margin-left:20px;
+    color:#418462;
+}
+#flowerBotLeft{
+    width: 450px;
+    height: auto;
+    bottom:-95px;
+    left:45px;
+    transform:rotate(20deg);
+    position:fixed;
+}
+#flowerTopRight{
+    width: 400px;
+    height: auto;
+    top:-85px;
+    right:-60px;
+    transform:rotate(-120deg);
+    position:fixed;
+}
+#flowerBotRight{
+    width: 300px;
+    height: auto;
+    bottom:10px;
+    right:0px;
+    
+    position:fixed;
+}
+a{
+    color:#805121;
+}
+a:active{
+    color:orange;
+}
+.facts{
+    color:#418462;
+    font-size:1.2em;
+}
+#home{
+    margin-left:20px;
+    margin-top:-20px;
+}
+
+body > a{
+    margin-left:20px;
+    font-size:20px;
+}
+.image{
+    margin-left:400px;
+    margin-top:-100px;
+    position:absolute;
+}
+.italic{
+    font-style:italic;
+}
+.space{
+    margin-left:150px;
+}
+#chrysanthemumImage{
+    height:500px;
+    width:auto;
+    margin:50px;
+}
+#hyacinthImage{
+    height:500px;
+    width:auto;
+}
