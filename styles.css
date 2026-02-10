@@ -21,6 +21,11 @@ body{
     left:45px;
     transform:rotate(20deg);
     position:fixed;
+    animation-name:slide-in-left;
+    animation-duration:1s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+
 }
 #flowerTopRight{
     width: 400px;
@@ -29,12 +34,20 @@ body{
     right:-60px;
     transform:rotate(-120deg);
     position:fixed;
+    animation-duration:1.25s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+    animation-name: slide-in-top;
 }
 #flowerBotRight{
     width: 300px;
     height: auto;
     bottom:10px;
     right:0px;
+    animation-duration:1.5s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+    animation-name: slide-in-right;
     
     position:fixed;
 }
@@ -76,4 +89,38 @@ body > a{
 #hyacinthImage{
     height:500px;
     width:auto;
+}
+
+@keyframes slide-in-left{
+
+from{
+    transform:translateX(-100%);
+}
+to{
+    transform:translateX(45px);
+    transform: rotate(20deg);
+}
+}
+
+@keyframes slide-in-top{
+    from{
+        transform: rotate(-90deg);
+        transform:translateY(-100%);
+        
+
+    }
+    to{
+        transform:translateY(-85px);
+        transform: rotate(-120deg);
+    }
+}
+
+@keyframes slide-in-right{
+    from{
+        transform:translateX(100%);
+    }
+    to{
+        transform:translateX(0);
+        transform: rotate(-90deg);
+    }
 }
