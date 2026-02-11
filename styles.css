@@ -60,6 +60,7 @@ a:active{
 .facts{
     color:#418462;
     font-size:1.2em;
+    
 }
 #home{
     margin-left:20px;
@@ -123,4 +124,27 @@ to{
         transform:translateX(0);
         transform: rotate(-90deg);
     }
+}
+
+nav{
+    background-color:#dda15e;
+    padding:10px;
+    width:fit-content;
+    border-radius:3px;
+    align-items:left;
+    font-size:20px;
+}
+#bg{
+    background-color:#ffc2d1;
+    color:#fb6f92;
+}
+
+#secretlink{
+    color:#ffe5ec;
+    text-decoration:none;
+}
+.myHeart{
+    vertical-align:middle;
+    width:27px;
+    height:auto;
 }
